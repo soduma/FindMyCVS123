@@ -13,6 +13,18 @@
 		A0C2415E2786BAD9002F9152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C2415C2786BAD9002F9152 /* Main.storyboard */; };
 		A0C241602786BADA002F9152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C2415F2786BADA002F9152 /* Assets.xcassets */; };
 		A0C241632786BADA002F9152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C241612786BADA002F9152 /* LaunchScreen.storyboard */; };
+		A0C2416B2786BC7C002F9152 /* DaumMap.embeddedframework in Resources */ = {isa = PBXBuildFile; fileRef = A0C2416A2786BC7C002F9152 /* DaumMap.embeddedframework */; };
+		A0C2416E2786BD0C002F9152 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C2416D2786BD0C002F9152 /* OpenGLES.framework */; };
+		A0C241702786BD15002F9152 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C2416F2786BD15002F9152 /* SystemConfiguration.framework */; };
+		A0C241722786BD1C002F9152 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C241712786BD1C002F9152 /* CoreLocation.framework */; };
+		A0C241742786BD25002F9152 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C241732786BD25002F9152 /* QuartzCore.framework */; };
+		A0C241762786BD33002F9152 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C241752786BD33002F9152 /* libc++.tbd */; };
+		A0C241782786BD3B002F9152 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C241772786BD3B002F9152 /* libxml2.tbd */; };
+		A0C2417A2786BD49002F9152 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C241792786BD49002F9152 /* libsqlite3.tbd */; };
+		A0C2417D2786BFF6002F9152 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C2417C2786BFF6002F9152 /* DaumMap.framework */; };
+		A0C2417F2786C0FE002F9152 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2417E2786C0FE002F9152 /* LocationData.swift */; };
+		A0C241812786C289002F9152 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C241802786C289002F9152 /* DetailListCellData.swift */; };
+		A0C241842786C77C002F9152 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A0C241832786C77C002F9152 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		A0C2415F2786BADA002F9152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C241622786BADA002F9152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0C241642786BADA002F9152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C2416A2786BC7C002F9152 /* DaumMap.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DaumMap.embeddedframework; sourceTree = "<group>"; };
+		A0C2416D2786BD0C002F9152 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A0C2416F2786BD15002F9152 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A0C241712786BD1C002F9152 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A0C241732786BD25002F9152 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A0C241752786BD33002F9152 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A0C241772786BD3B002F9152 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		A0C241792786BD49002F9152 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A0C2417B2786BF6E002F9152 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		A0C2417C2786BFF6002F9152 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = DaumMap.embeddedframework/DaumMap.framework; sourceTree = "<group>"; };
+		A0C2417E2786C0FE002F9152 /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		A0C241802786C289002F9152 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C2417A2786BD49002F9152 /* libsqlite3.tbd in Frameworks */,
+				A0C241782786BD3B002F9152 /* libxml2.tbd in Frameworks */,
+				A0C241762786BD33002F9152 /* libc++.tbd in Frameworks */,
+				A0C241742786BD25002F9152 /* QuartzCore.framework in Frameworks */,
+				A0C241722786BD1C002F9152 /* CoreLocation.framework in Frameworks */,
+				A0C241702786BD15002F9152 /* SystemConfiguration.framework in Frameworks */,
+				A0C241842786C77C002F9152 /* SnapKit in Frameworks */,
+				A0C2416E2786BD0C002F9152 /* OpenGLES.framework in Frameworks */,
+				A0C2417D2786BFF6002F9152 /* DaumMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,7 @@
 			children = (
 				A0C241552786BAD9002F9152 /* FindMyCVS */,
 				A0C241542786BAD9002F9152 /* Products */,
+				A0C2416C2786BD0C002F9152 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,34 @@
 		A0C241552786BAD9002F9152 /* FindMyCVS */ = {
 			isa = PBXGroup;
 			children = (
+				A0C2417B2786BF6E002F9152 /* BridgingHeader.h */,
 				A0C241562786BAD9002F9152 /* AppDelegate.swift */,
 				A0C241582786BAD9002F9152 /* SceneDelegate.swift */,
 				A0C2415A2786BAD9002F9152 /* ViewController.swift */,
+				A0C2417E2786C0FE002F9152 /* LocationData.swift */,
+				A0C241802786C289002F9152 /* DetailListCellData.swift */,
 				A0C2415C2786BAD9002F9152 /* Main.storyboard */,
 				A0C2415F2786BADA002F9152 /* Assets.xcassets */,
 				A0C241612786BADA002F9152 /* LaunchScreen.storyboard */,
 				A0C241642786BADA002F9152 /* Info.plist */,
 			);
 			path = FindMyCVS;
+			sourceTree = "<group>";
+		};
+		A0C2416C2786BD0C002F9152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2416A2786BC7C002F9152 /* DaumMap.embeddedframework */,
+				A0C241792786BD49002F9152 /* libsqlite3.tbd */,
+				A0C241772786BD3B002F9152 /* libxml2.tbd */,
+				A0C241752786BD33002F9152 /* libc++.tbd */,
+				A0C241732786BD25002F9152 /* QuartzCore.framework */,
+				A0C241712786BD1C002F9152 /* CoreLocation.framework */,
+				A0C2416F2786BD15002F9152 /* SystemConfiguration.framework */,
+				A0C2417C2786BFF6002F9152 /* DaumMap.framework */,
+				A0C2416D2786BD0C002F9152 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +136,9 @@
 			dependencies = (
 			);
 			name = FindMyCVS;
+			packageProductDependencies = (
+				A0C241832786C77C002F9152 /* SnapKit */,
+			);
 			productName = FindMyCVS;
 			productReference = A0C241532786BAD9002F9152 /* FindMyCVS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +167,9 @@
 				Base,
 			);
 			mainGroup = A0C2414A2786BAD9002F9152;
+			packageReferences = (
+				A0C241822786C77C002F9152 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = A0C241542786BAD9002F9152 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C2416B2786BC7C002F9152 /* DaumMap.embeddedframework in Resources */,
 				A0C241632786BADA002F9152 /* LaunchScreen.storyboard in Resources */,
 				A0C241602786BADA002F9152 /* Assets.xcassets in Resources */,
 				A0C2415E2786BAD9002F9152 /* Main.storyboard in Resources */,
@@ -138,8 +198,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C2417F2786C0FE002F9152 /* LocationData.swift in Sources */,
 				A0C2415B2786BAD9002F9152 /* ViewController.swift in Sources */,
 				A0C241572786BAD9002F9152 /* AppDelegate.swift in Sources */,
+				A0C241812786C289002F9152 /* DetailListCellData.swift in Sources */,
 				A0C241592786BAD9002F9152 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,7 +237,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -236,7 +298,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -290,6 +352,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HM9J3DG5MT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FindMyCVS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -305,6 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soduma.FindMyCVS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/infofield/Desktop/FindMyCVS/FindMyCVS/BridgingHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +385,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HM9J3DG5MT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FindMyCVS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,6 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soduma.FindMyCVS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/infofield/Desktop/FindMyCVS/FindMyCVS/BridgingHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -360,6 +432,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0C241822786C77C002F9152 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0C241832786C77C002F9152 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0C241822786C77C002F9152 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A0C2414B2786BAD9002F9152 /* Project object */;
 }
