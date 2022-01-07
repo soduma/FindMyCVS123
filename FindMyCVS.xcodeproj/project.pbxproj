@@ -28,6 +28,10 @@
 		A0C2418B27883175002F9152 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A0C2418A27883175002F9152 /* RxCocoa */; };
 		A0C2418D27883175002F9152 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = A0C2418C27883175002F9152 /* RxRelay */; };
 		A0C2418F27883175002F9152 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0C2418E27883175002F9152 /* RxSwift */; };
+		A0C2419327883F44002F9152 /* MTMapViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2419227883F44002F9152 /* MTMapViewError.swift */; };
+		A0C24195278847BD002F9152 /* DetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C24194278847BD002F9152 /* DetailListCell.swift */; };
+		A0C24198278849B3002F9152 /* DetailListBackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C24197278849B3002F9152 /* DetailListBackGroundView.swift */; };
+		A0C2419A278849BF002F9152 /* DetailListBackGroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C24199278849BF002F9152 /* DetailListBackGroundViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +55,10 @@
 		A0C2417E2786C0FE002F9152 /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
 		A0C241802786C289002F9152 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
 		A0C2418527883094002F9152 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		A0C2419227883F44002F9152 /* MTMapViewError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMapViewError.swift; sourceTree = "<group>"; };
+		A0C24194278847BD002F9152 /* DetailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCell.swift; sourceTree = "<group>"; };
+		A0C24197278849B3002F9152 /* DetailListBackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackGroundView.swift; sourceTree = "<group>"; };
+		A0C24199278849BF002F9152 /* DetailListBackGroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackGroundViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,9 @@
 				A0C2417B2786BF6E002F9152 /* BridgingHeader.h */,
 				A0C241562786BAD9002F9152 /* AppDelegate.swift */,
 				A0C241582786BAD9002F9152 /* SceneDelegate.swift */,
-				A0C2415A2786BAD9002F9152 /* LocationViewController.swift */,
-				A0C2418527883094002F9152 /* LocationViewModel.swift */,
+				A0C241962788484B002F9152 /* Scene */,
 				A0C2417E2786C0FE002F9152 /* LocationData.swift */,
-				A0C241802786C289002F9152 /* DetailListCellData.swift */,
+				A0C2419227883F44002F9152 /* MTMapViewError.swift */,
 				A0C2415F2786BADA002F9152 /* Assets.xcassets */,
 				A0C241612786BADA002F9152 /* LaunchScreen.storyboard */,
 				A0C241642786BADA002F9152 /* Info.plist */,
@@ -124,6 +131,19 @@
 				A0C2416D2786BD0C002F9152 /* OpenGLES.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0C241962788484B002F9152 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2415A2786BAD9002F9152 /* LocationViewController.swift */,
+				A0C2418527883094002F9152 /* LocationViewModel.swift */,
+				A0C24194278847BD002F9152 /* DetailListCell.swift */,
+				A0C241802786C289002F9152 /* DetailListCellData.swift */,
+				A0C24197278849B3002F9152 /* DetailListBackGroundView.swift */,
+				A0C24199278849BF002F9152 /* DetailListBackGroundViewModel.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,10 +228,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0C2417F2786C0FE002F9152 /* LocationData.swift in Sources */,
+				A0C2419A278849BF002F9152 /* DetailListBackGroundViewModel.swift in Sources */,
+				A0C2419327883F44002F9152 /* MTMapViewError.swift in Sources */,
+				A0C24198278849B3002F9152 /* DetailListBackGroundView.swift in Sources */,
 				A0C2418627883094002F9152 /* LocationViewModel.swift in Sources */,
 				A0C2415B2786BAD9002F9152 /* LocationViewController.swift in Sources */,
 				A0C241572786BAD9002F9152 /* AppDelegate.swift in Sources */,
 				A0C241812786C289002F9152 /* DetailListCellData.swift in Sources */,
+				A0C24195278847BD002F9152 /* DetailListCell.swift in Sources */,
 				A0C241592786BAD9002F9152 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
