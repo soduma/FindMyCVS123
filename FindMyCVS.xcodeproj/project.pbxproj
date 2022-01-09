@@ -32,6 +32,9 @@
 		A0C24195278847BD002F9152 /* DetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C24194278847BD002F9152 /* DetailListCell.swift */; };
 		A0C24198278849B3002F9152 /* DetailListBackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C24197278849B3002F9152 /* DetailListBackGroundView.swift */; };
 		A0C2419A278849BF002F9152 /* DetailListBackGroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C24199278849BF002F9152 /* DetailListBackGroundViewModel.swift */; };
+		A0C2419C278854EA002F9152 /* LocalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2419B278854EA002F9152 /* LocalAPI.swift */; };
+		A0C2419F2788585B002F9152 /* LocalNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2419E2788585B002F9152 /* LocalNetwork.swift */; };
+		A0C241A127885A82002F9152 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C241A027885A82002F9152 /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +62,9 @@
 		A0C24194278847BD002F9152 /* DetailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCell.swift; sourceTree = "<group>"; };
 		A0C24197278849B3002F9152 /* DetailListBackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackGroundView.swift; sourceTree = "<group>"; };
 		A0C24199278849BF002F9152 /* DetailListBackGroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackGroundViewModel.swift; sourceTree = "<group>"; };
+		A0C2419B278854EA002F9152 /* LocalAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAPI.swift; sourceTree = "<group>"; };
+		A0C2419E2788585B002F9152 /* LocalNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetwork.swift; sourceTree = "<group>"; };
+		A0C241A027885A82002F9152 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 				A0C2417B2786BF6E002F9152 /* BridgingHeader.h */,
 				A0C241562786BAD9002F9152 /* AppDelegate.swift */,
 				A0C241582786BAD9002F9152 /* SceneDelegate.swift */,
+				A0C2419D278854F1002F9152 /* Network */,
 				A0C241962788484B002F9152 /* Scene */,
 				A0C2417E2786C0FE002F9152 /* LocationData.swift */,
 				A0C2419227883F44002F9152 /* MTMapViewError.swift */,
@@ -138,12 +145,22 @@
 			children = (
 				A0C2415A2786BAD9002F9152 /* LocationViewController.swift */,
 				A0C2418527883094002F9152 /* LocationViewModel.swift */,
+				A0C241A027885A82002F9152 /* LocationModel.swift */,
 				A0C24194278847BD002F9152 /* DetailListCell.swift */,
 				A0C241802786C289002F9152 /* DetailListCellData.swift */,
 				A0C24197278849B3002F9152 /* DetailListBackGroundView.swift */,
 				A0C24199278849BF002F9152 /* DetailListBackGroundViewModel.swift */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		A0C2419D278854F1002F9152 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2419B278854EA002F9152 /* LocalAPI.swift */,
+				A0C2419E2788585B002F9152 /* LocalNetwork.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,11 +248,14 @@
 				A0C2419A278849BF002F9152 /* DetailListBackGroundViewModel.swift in Sources */,
 				A0C2419327883F44002F9152 /* MTMapViewError.swift in Sources */,
 				A0C24198278849B3002F9152 /* DetailListBackGroundView.swift in Sources */,
+				A0C2419C278854EA002F9152 /* LocalAPI.swift in Sources */,
 				A0C2418627883094002F9152 /* LocationViewModel.swift in Sources */,
 				A0C2415B2786BAD9002F9152 /* LocationViewController.swift in Sources */,
 				A0C241572786BAD9002F9152 /* AppDelegate.swift in Sources */,
 				A0C241812786C289002F9152 /* DetailListCellData.swift in Sources */,
 				A0C24195278847BD002F9152 /* DetailListCell.swift in Sources */,
+				A0C241A127885A82002F9152 /* LocationModel.swift in Sources */,
+				A0C2419F2788585B002F9152 /* LocalNetwork.swift in Sources */,
 				A0C241592786BAD9002F9152 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +408,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,6 +441,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

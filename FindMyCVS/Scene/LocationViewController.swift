@@ -53,7 +53,7 @@ class LocationViewController: UIViewController {
         
         viewModel.detailListCellData
             .map { $0.compactMap { $0.point } }
-            .drive(self.rx.addPOIItem)
+            .drive(self.rx.addPOIItems)
             .disposed(by: disposeBag)
         
         viewModel.scrollToSelectedLocation
@@ -168,14 +168,14 @@ extension Reactive where Base: LocationViewController {
         }
     }
     
-    var addPOIItem: Binder<[MTMapPoint]> {
+    var addPOIItems: Binder<[MTMapPoint]> {
         return Binder(base) { base, points in
             let items = points
                 .enumerated()
                 .map { offset, point -> MTMapPOIItem in
                     let mapPOIItem = MTMapPOIItem()
                     mapPOIItem.mapPoint = point
-                    mapPOIItem.markerType = .yellowPin
+                    mapPOIItem.markerType = .redPin
                     mapPOIItem.showAnimationType = .springFromGround
                     mapPOIItem.tag = offset
                     return mapPOIItem
