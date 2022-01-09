@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14A42C9963A7924076501449 /* Pods_FindMyCVS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC6C251D57F9F5BAD7E4689 /* Pods_FindMyCVS.framework */; };
 		A0C241572786BAD9002F9152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C241562786BAD9002F9152 /* AppDelegate.swift */; };
 		A0C241592786BAD9002F9152 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C241582786BAD9002F9152 /* SceneDelegate.swift */; };
 		A0C2415B2786BAD9002F9152 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2415A2786BAD9002F9152 /* LocationViewController.swift */; };
@@ -23,11 +24,7 @@
 		A0C2417D2786BFF6002F9152 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C2417C2786BFF6002F9152 /* DaumMap.framework */; };
 		A0C2417F2786C0FE002F9152 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2417E2786C0FE002F9152 /* LocationData.swift */; };
 		A0C241812786C289002F9152 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C241802786C289002F9152 /* DetailListCellData.swift */; };
-		A0C241842786C77C002F9152 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A0C241832786C77C002F9152 /* SnapKit */; };
 		A0C2418627883094002F9152 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2418527883094002F9152 /* LocationViewModel.swift */; };
-		A0C2418B27883175002F9152 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A0C2418A27883175002F9152 /* RxCocoa */; };
-		A0C2418D27883175002F9152 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = A0C2418C27883175002F9152 /* RxRelay */; };
-		A0C2418F27883175002F9152 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0C2418E27883175002F9152 /* RxSwift */; };
 		A0C2419327883F44002F9152 /* MTMapViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2419227883F44002F9152 /* MTMapViewError.swift */; };
 		A0C24195278847BD002F9152 /* DetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C24194278847BD002F9152 /* DetailListCell.swift */; };
 		A0C24198278849B3002F9152 /* DetailListBackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C24197278849B3002F9152 /* DetailListBackGroundView.swift */; };
@@ -35,9 +32,30 @@
 		A0C2419C278854EA002F9152 /* LocalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2419B278854EA002F9152 /* LocalAPI.swift */; };
 		A0C2419F2788585B002F9152 /* LocalNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2419E2788585B002F9152 /* LocalNetwork.swift */; };
 		A0C241A127885A82002F9152 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C241A027885A82002F9152 /* LocationModel.swift */; };
+		A0C241D4278ABBDD002F9152 /* LocalNetworkStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C241D3278ABBDD002F9152 /* LocalNetworkStub.swift */; };
+		A0C241D6278ABC90002F9152 /* networkDummy.json in Resources */ = {isa = PBXBuildFile; fileRef = A0C241D5278ABC90002F9152 /* networkDummy.json */; };
+		A0C241D8278ABD0F002F9152 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C241D7278ABD0F002F9152 /* Dummy.swift */; };
+		A0C241DA278ABE80002F9152 /* LocationModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C241D9278ABE80002F9152 /* LocationModelTests.swift */; };
+		A0C241DC278AC797002F9152 /* LocationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C241DB278AC797002F9152 /* LocationViewModelTests.swift */; };
+		BEDF3DE20E77E3E34DAAEF80 /* Pods_FindMyCVSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7A422C5EAEC8121D1E019C /* Pods_FindMyCVSTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A0C241CE278AB9B1002F9152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C2414B2786BAD9002F9152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C241522786BAD9002F9152;
+			remoteInfo = FindMyCVS;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		20E3A47C47CCB269AFB33D9D /* Pods-FindMyCVS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyCVS.debug.xcconfig"; path = "Target Support Files/Pods-FindMyCVS/Pods-FindMyCVS.debug.xcconfig"; sourceTree = "<group>"; };
+		2ACAE83FA51DEA9139A9DE8B /* Pods-FindMyCVSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyCVSTests.release.xcconfig"; path = "Target Support Files/Pods-FindMyCVSTests/Pods-FindMyCVSTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BC6C251D57F9F5BAD7E4689 /* Pods_FindMyCVS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyCVS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70597CB09F7BAD05CF34E5E5 /* Pods-FindMyCVS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyCVS.release.xcconfig"; path = "Target Support Files/Pods-FindMyCVS/Pods-FindMyCVS.release.xcconfig"; sourceTree = "<group>"; };
+		7F55E0FAF2F31ECE90B0E949 /* Pods-FindMyCVSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyCVSTests.debug.xcconfig"; path = "Target Support Files/Pods-FindMyCVSTests/Pods-FindMyCVSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0C241532786BAD9002F9152 /* FindMyCVS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyCVS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C241562786BAD9002F9152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0C241582786BAD9002F9152 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +83,13 @@
 		A0C2419B278854EA002F9152 /* LocalAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAPI.swift; sourceTree = "<group>"; };
 		A0C2419E2788585B002F9152 /* LocalNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetwork.swift; sourceTree = "<group>"; };
 		A0C241A027885A82002F9152 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		A0C241CA278AB9B1002F9152 /* FindMyCVSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyCVSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C241D3278ABBDD002F9152 /* LocalNetworkStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetworkStub.swift; sourceTree = "<group>"; };
+		A0C241D5278ABC90002F9152 /* networkDummy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = networkDummy.json; sourceTree = "<group>"; };
+		A0C241D7278ABD0F002F9152 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		A0C241D9278ABE80002F9152 /* LocationModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModelTests.swift; sourceTree = "<group>"; };
+		A0C241DB278AC797002F9152 /* LocationViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModelTests.swift; sourceTree = "<group>"; };
+		EB7A422C5EAEC8121D1E019C /* Pods_FindMyCVSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyCVSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,16 +99,21 @@
 			files = (
 				A0C2417A2786BD49002F9152 /* libsqlite3.tbd in Frameworks */,
 				A0C241782786BD3B002F9152 /* libxml2.tbd in Frameworks */,
-				A0C2418B27883175002F9152 /* RxCocoa in Frameworks */,
 				A0C241762786BD33002F9152 /* libc++.tbd in Frameworks */,
 				A0C241742786BD25002F9152 /* QuartzCore.framework in Frameworks */,
 				A0C241722786BD1C002F9152 /* CoreLocation.framework in Frameworks */,
-				A0C2418F27883175002F9152 /* RxSwift in Frameworks */,
-				A0C2418D27883175002F9152 /* RxRelay in Frameworks */,
 				A0C241702786BD15002F9152 /* SystemConfiguration.framework in Frameworks */,
-				A0C241842786C77C002F9152 /* SnapKit in Frameworks */,
 				A0C2416E2786BD0C002F9152 /* OpenGLES.framework in Frameworks */,
 				A0C2417D2786BFF6002F9152 /* DaumMap.framework in Frameworks */,
+				14A42C9963A7924076501449 /* Pods_FindMyCVS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C241C7278AB9B1002F9152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDF3DE20E77E3E34DAAEF80 /* Pods_FindMyCVSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				A0C241552786BAD9002F9152 /* FindMyCVS */,
+				A0C241CB278AB9B1002F9152 /* FindMyCVSTests */,
 				A0C241542786BAD9002F9152 /* Products */,
 				A0C2416C2786BD0C002F9152 /* Frameworks */,
+				C9AF80E940D8920B819A2BB3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				A0C241532786BAD9002F9152 /* FindMyCVS.app */,
+				A0C241CA278AB9B1002F9152 /* FindMyCVSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +169,8 @@
 				A0C2416F2786BD15002F9152 /* SystemConfiguration.framework */,
 				A0C2417C2786BFF6002F9152 /* DaumMap.framework */,
 				A0C2416D2786BD0C002F9152 /* OpenGLES.framework */,
+				3BC6C251D57F9F5BAD7E4689 /* Pods_FindMyCVS.framework */,
+				EB7A422C5EAEC8121D1E019C /* Pods_FindMyCVSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,6 +198,29 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		A0C241CB278AB9B1002F9152 /* FindMyCVSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C241D3278ABBDD002F9152 /* LocalNetworkStub.swift */,
+				A0C241D7278ABD0F002F9152 /* Dummy.swift */,
+				A0C241D9278ABE80002F9152 /* LocationModelTests.swift */,
+				A0C241DB278AC797002F9152 /* LocationViewModelTests.swift */,
+				A0C241D5278ABC90002F9152 /* networkDummy.json */,
+			);
+			path = FindMyCVSTests;
+			sourceTree = "<group>";
+		};
+		C9AF80E940D8920B819A2BB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20E3A47C47CCB269AFB33D9D /* Pods-FindMyCVS.debug.xcconfig */,
+				70597CB09F7BAD05CF34E5E5 /* Pods-FindMyCVS.release.xcconfig */,
+				7F55E0FAF2F31ECE90B0E949 /* Pods-FindMyCVSTests.debug.xcconfig */,
+				2ACAE83FA51DEA9139A9DE8B /* Pods-FindMyCVSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,24 +228,40 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C241672786BADA002F9152 /* Build configuration list for PBXNativeTarget "FindMyCVS" */;
 			buildPhases = (
+				4EB5AE7450000B9B8698C776 /* [CP] Check Pods Manifest.lock */,
 				A0C2414F2786BAD9002F9152 /* Sources */,
 				A0C241502786BAD9002F9152 /* Frameworks */,
 				A0C241512786BAD9002F9152 /* Resources */,
+				61F2FFE64509862AA3B6FCF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FindMyCVS;
-			packageProductDependencies = (
-				A0C241832786C77C002F9152 /* SnapKit */,
-				A0C2418A27883175002F9152 /* RxCocoa */,
-				A0C2418C27883175002F9152 /* RxRelay */,
-				A0C2418E27883175002F9152 /* RxSwift */,
-			);
 			productName = FindMyCVS;
 			productReference = A0C241532786BAD9002F9152 /* FindMyCVS.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A0C241C9278AB9B1002F9152 /* FindMyCVSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C241D0278AB9B1002F9152 /* Build configuration list for PBXNativeTarget "FindMyCVSTests" */;
+			buildPhases = (
+				F9C6988233B9271776D23638 /* [CP] Check Pods Manifest.lock */,
+				A0C241C6278AB9B1002F9152 /* Sources */,
+				A0C241C7278AB9B1002F9152 /* Frameworks */,
+				A0C241C8278AB9B1002F9152 /* Resources */,
+				17F8E5D0D083C19C61315D74 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C241CF278AB9B1002F9152 /* PBXTargetDependency */,
+			);
+			name = FindMyCVSTests;
+			productName = FindMyCVSTests;
+			productReference = A0C241CA278AB9B1002F9152 /* FindMyCVSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,6 +276,11 @@
 					A0C241522786BAD9002F9152 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					A0C241C9278AB9B1002F9152 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+						TestTargetID = A0C241522786BAD9002F9152;
+					};
 				};
 			};
 			buildConfigurationList = A0C2414E2786BAD9002F9152 /* Build configuration list for PBXProject "FindMyCVS" */;
@@ -213,15 +292,12 @@
 				Base,
 			);
 			mainGroup = A0C2414A2786BAD9002F9152;
-			packageReferences = (
-				A0C241822786C77C002F9152 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				A0C2418727883175002F9152 /* XCRemoteSwiftPackageReference "RxSwift" */,
-			);
 			productRefGroup = A0C241542786BAD9002F9152 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A0C241522786BAD9002F9152 /* FindMyCVS */,
+				A0C241C9278AB9B1002F9152 /* FindMyCVSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,7 +313,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0C241C8278AB9B1002F9152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C241D6278ABC90002F9152 /* networkDummy.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17F8E5D0D083C19C61315D74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyCVSTests/Pods-FindMyCVSTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyCVSTests/Pods-FindMyCVSTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindMyCVSTests/Pods-FindMyCVSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB5AE7450000B9B8698C776 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyCVS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61F2FFE64509862AA3B6FCF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyCVS/Pods-FindMyCVS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyCVS/Pods-FindMyCVS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindMyCVS/Pods-FindMyCVS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9C6988233B9271776D23638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyCVSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0C2414F2786BAD9002F9152 /* Sources */ = {
@@ -260,7 +425,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0C241C6278AB9B1002F9152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C241D8278ABD0F002F9152 /* Dummy.swift in Sources */,
+				A0C241DA278ABE80002F9152 /* LocationModelTests.swift in Sources */,
+				A0C241D4278ABBDD002F9152 /* LocalNetworkStub.swift in Sources */,
+				A0C241DC278AC797002F9152 /* LocationViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0C241CF278AB9B1002F9152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C241522786BAD9002F9152 /* FindMyCVS */;
+			targetProxy = A0C241CE278AB9B1002F9152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A0C241612786BADA002F9152 /* LaunchScreen.storyboard */ = {
@@ -392,6 +576,7 @@
 		};
 		A0C241682786BADA002F9152 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E3A47C47CCB269AFB33D9D /* Pods-FindMyCVS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -425,6 +610,7 @@
 		};
 		A0C241692786BADA002F9152 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70597CB09F7BAD05CF34E5E5 /* Pods-FindMyCVS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +642,59 @@
 			};
 			name = Release;
 		};
+		A0C241D1278AB9B1002F9152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F55E0FAF2F31ECE90B0E949 /* Pods-FindMyCVSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM9J3DG5MT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soduma.FindMyCVSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyCVS.app/FindMyCVS";
+			};
+			name = Debug;
+		};
+		A0C241D2278AB9B1002F9152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACAE83FA51DEA9139A9DE8B /* Pods-FindMyCVSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM9J3DG5MT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soduma.FindMyCVSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyCVS.app/FindMyCVS";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -477,49 +716,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A0C241D0278AB9B1002F9152 /* Build configuration list for PBXNativeTarget "FindMyCVSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C241D1278AB9B1002F9152 /* Debug */,
+				A0C241D2278AB9B1002F9152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A0C241822786C77C002F9152 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-		A0C2418727883175002F9152 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A0C241832786C77C002F9152 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A0C241822786C77C002F9152 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		A0C2418A27883175002F9152 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A0C2418727883175002F9152 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		A0C2418C27883175002F9152 /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A0C2418727883175002F9152 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		A0C2418E27883175002F9152 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A0C2418727883175002F9152 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A0C2414B2786BAD9002F9152 /* Project object */;
 }
